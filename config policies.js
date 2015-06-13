@@ -1,0 +1,3 @@
+{
+	UserController: ['someCustomPolicy']
+}
