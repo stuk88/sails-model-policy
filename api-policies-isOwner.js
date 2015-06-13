@@ -11,5 +11,5 @@ module.exports = function(req, res, next) {
 
   // User is not allowed
   res.status(403);
-  return res.json({error:'Must authenticate'});
+  return res.json({error:'not allowed'});
 };
