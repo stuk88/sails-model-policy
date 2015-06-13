@@ -12,7 +12,7 @@ ModelPolicy.prototype.queriedModelCreteria = function(criteria) {
 		return data;
 	});
 
-	return (wlFilter(model_obj,criteria).results.length > 0);
+	return this.customModelCreteria(model_obj, criteria);
 };
 
 ModelPolicy.prototype.customModelCreteria = function(model_obj, criteria) {
