@@ -1,7 +1,7 @@
 module.exports.policies = {
-  UserController: {
-    'login': true,
-    '*': 'isOwner'
+  ProductController: {
+    '*': true,
+    'delete': 'isOwner'
   }
 
 };
